@@ -34,7 +34,7 @@ impl<K, V> HashMapToSetExt<K, V> for HashMapToSet<K, V> {
     /// # Examples
     ///
     /// ```
-    /// use sixarm_collections::*;
+    /// use collectables::*;
     /// let mut a: HashMapToSet<u8, u8> = HashMapToSet::new();
     /// a.sub_insert(1, 2);
     /// assert_eq!(a.sub_contains(&1, &2), true);
@@ -59,7 +59,7 @@ impl<K, V> HashMapToSetExt<K, V> for HashMapToSet<K, V> {
     /// # Examples
     ///
     /// ```
-    /// use sixarm_collections::*;
+    /// use collectables::*;
     /// let mut a: HashMapToSet<u8, u8> = HashMapToSet::new();
     /// a.sub_insert(1, 2);
     /// assert_eq!(a.sub_contains(&1, &2), true);
@@ -86,7 +86,7 @@ impl<K, V> HashMapToSetExt<K, V> for HashMapToSet<K, V> {
     /// # Examples
     ///
     /// ```
-    /// use sixarm_collections::*;
+    /// use collectables::*;
     /// let mut a: HashMapToSet<u8, u8> = HashMapToSet::new();
     /// a.sub_insert(1, 2);
     /// assert_eq!(a.sub_contains(&1, &2), true);
@@ -110,7 +110,7 @@ impl<K, V> HashMapToSetExt<K, V> for HashMapToSet<K, V> {
 #[cfg(test)]
 mod tests {
     use super::*;
-    use sixarm_assert::*;
+    use assertables::*;
     use crate::hash_map_to_set::HashMapToSet;
 
     #[test]

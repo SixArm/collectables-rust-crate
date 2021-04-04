@@ -33,7 +33,7 @@ impl<K, V> BTreeMapToSetExt<K, V> for BTreeMapToSet<K, V> {
     /// # Examples
     ///
     /// ```
-    /// use sixarm_collections::*;
+    /// use collectables::*;
     /// let mut a: BTreeMapToSet<u8, u8> = BTreeMapToSet::new();
     /// a.sub_insert(1, 2);
     /// assert_eq!(a.sub_contains(&1, &2), true);
@@ -58,7 +58,7 @@ impl<K, V> BTreeMapToSetExt<K, V> for BTreeMapToSet<K, V> {
     /// # Examples
     ///
     /// ```
-    /// use sixarm_collections::*;
+    /// use collectables::*;
     /// let mut a: BTreeMapToSet<u8, u8> = BTreeMapToSet::new();
     /// a.sub_insert(1, 2);
     /// assert_eq!(a.sub_contains(&1, &2), true);
@@ -84,7 +84,7 @@ impl<K, V> BTreeMapToSetExt<K, V> for BTreeMapToSet<K, V> {
     /// # Examples
     ///
     /// ```
-    /// use sixarm_collections::*;
+    /// use collectables::*;
     /// let mut a: BTreeMapToSet<u8, u8> = BTreeMapToSet::new();
     /// a.sub_insert(1, 2);
     /// assert_eq!(a.sub_contains(&1, &2), true);
@@ -108,7 +108,7 @@ impl<K, V> BTreeMapToSetExt<K, V> for BTreeMapToSet<K, V> {
 #[cfg(test)]
 mod tests {
     use super::*;
-    use sixarm_assert::*;
+    use assertables::*;
     use crate::btree_map_to_set::BTreeMapToSet;
 
     #[test]

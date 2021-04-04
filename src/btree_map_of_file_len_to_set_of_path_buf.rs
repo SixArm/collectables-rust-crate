@@ -21,7 +21,7 @@ impl BTreeMapOfFileLenToSetOfPathBufExt for BTreeMapOfFileLenToSetOfPathBuf {
     /// # Examples
     ///
     /// ```
-    /// use sixarm_collections::*;
+    /// use collectables::*;
     /// use std::collections::{BTreeMap, BTreeSet};
     /// use std::path::PathBuf;
     ///
@@ -52,7 +52,7 @@ impl BTreeMapOfFileLenToSetOfPathBufExt for BTreeMapOfFileLenToSetOfPathBuf {
     /// # Examples
     ///
     /// ```
-    /// use sixarm_collections::*;
+    /// use collectables::*;
     /// use std::collections::{BTreeMap, BTreeSet};
     /// use std::path::PathBuf;
     ///
@@ -82,7 +82,7 @@ impl BTreeMapOfFileLenToSetOfPathBufExt for BTreeMapOfFileLenToSetOfPathBuf {
     /// # Examples
     ///
     /// ```
-    /// use sixarm_collections::*;
+    /// use collectables::*;
     /// use std::collections::{BTreeMap, BTreeSet};
     /// use std::path::PathBuf;
     ///
@@ -109,7 +109,6 @@ impl BTreeMapOfFileLenToSetOfPathBufExt for BTreeMapOfFileLenToSetOfPathBuf {
 #[cfg(test)]
 mod tests {
     use super::*;
-    use sixarm_assert::*;
     use std::path::PathBuf;
 
     #[test]
