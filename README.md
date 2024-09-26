@@ -41,7 +41,7 @@ a.sub_remove(&hello, &ninhao);
 // thus all HashMap functions and HashSet functions are available,
 // and can be intermixed with the HashMapSet trait extensions.
 assert_eq!(a.get(&hello).unwrap().contains(&hola), true);
-
+```
 
 ## Specific-purpose collections helpers
 
